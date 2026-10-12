@@ -10,11 +10,11 @@ App Android para gestionar objetos perdidos en el campus universitario. Los estu
 **Curso:** Desarrollo de Aplicaciones Móviles, UNAB, 2025
 **Tecnologías:** Kotlin · Jetpack Compose · Material 3 · Navigation Compose · Firebase Auth, Firestore y Storage · Coil · JUnit · GitHub Actions
 
-<!-- Capturas: reemplazar por imágenes reales en docs/ -->
 <p align="center">
-  <img src="docs/inicio.png" alt="Inicio" width="200">
-  <img src="docs/solicitud.png" alt="Nueva solicitud" width="200">
-  <img src="docs/estadisticas.png" alt="Estadísticas del encargado" width="200">
+  <img src="docs/bienvenida.jpg" alt="Pantalla de bienvenida" width="180">
+  <img src="docs/registro.jpg" alt="Registro con rol de usuario o encargado" width="180">
+  <img src="docs/solicitudes.jpg" alt="Solicitudes que revisa el encargado" width="180">
+  <img src="docs/estadisticas.jpg" alt="Estadísticas del mes" width="180">
 </p>
 
 ## Qué hace
@@ -62,4 +62,5 @@ Las validaciones de formularios y el manejo de fechas tienen pruebas unitarias (
 
 ## Limitaciones conocidas
 
+- Las fotos de los objetos se guardaban en Firebase Storage, que ya no está activo en el proyecto original, así que en las capturas no aparecen.
 - El código de registro de encargados está fijo en la app. En una versión real, el rol de encargado se asignaría desde el servidor (por ejemplo, con reglas de Firestore o claims de Firebase Auth).
