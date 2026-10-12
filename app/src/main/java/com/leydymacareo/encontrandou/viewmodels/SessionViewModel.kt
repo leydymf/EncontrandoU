@@ -1,4 +1,4 @@
-package com.leydymacareo.encontrandou.viewmodel
+package com.leydymacareo.encontrandou.viewmodels
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

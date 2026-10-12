@@ -1,5 +1,8 @@
 package com.leydymacareo.encontrandou.utils
 
+// Formato basico de correo; se usa una expresion propia para poder probarla sin Android
+private val FORMATO_CORREO = Regex("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$")
+
 fun validarNombre(nombre: String): Pair<Boolean, String> {
     return when {
         nombre.isBlank() -> false to "El nombre es requerido"
@@ -12,7 +15,7 @@ fun validarCorreo(email: String): Pair<Boolean, String> {
     return when {
         email.isBlank() -> false to "El correo es requerido"
         !email.endsWith("@unab.edu.co") -> false to "Debe usar correo @unab.edu.co"
-        !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches() -> false to "Formato de correo inválido"
+        !FORMATO_CORREO.matches(email) -> false to "Formato de correo inválido"
         else -> true to ""
     }
 }

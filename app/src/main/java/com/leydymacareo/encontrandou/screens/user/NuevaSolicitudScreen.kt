@@ -1,5 +1,6 @@
-package com.leydymacareo.encontrandou.screens
+package com.leydymacareo.encontrandou.screens.user
 
+import com.leydymacareo.encontrandou.models.EstadoSolicitud
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -19,8 +20,8 @@ import com.leydymacareo.encontrandou.components.FormularioObjeto
 import com.leydymacareo.encontrandou.components.obtenerFechaActual
 import com.leydymacareo.encontrandou.models.Solicitud
 import com.leydymacareo.encontrandou.viewmodels.SolicitudViewModel
-import com.leydymacareo.encontrandou.viewmodel.SessionState
-import com.leydymacareo.encontrandou.viewmodel.SessionViewModel
+import com.leydymacareo.encontrandou.viewmodels.SessionState
+import com.leydymacareo.encontrandou.viewmodels.SessionViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

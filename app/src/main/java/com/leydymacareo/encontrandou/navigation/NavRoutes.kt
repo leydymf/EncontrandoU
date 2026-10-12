@@ -1,4 +1,4 @@
-package com.leydymacareo.encontrandou
+package com.leydymacareo.encontrandou.navigation
 
 object NavRoutes {
     const val Welcome = "welcome"

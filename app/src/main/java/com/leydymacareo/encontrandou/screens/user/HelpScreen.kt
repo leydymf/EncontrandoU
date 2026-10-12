@@ -1,3 +1,5 @@
+package com.leydymacareo.encontrandou.screens.user
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -18,7 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.leydymacareo.encontrandou.NavRoutes
+import com.leydymacareo.encontrandou.navigation.NavRoutes
 import com.leydymacareo.encontrandou.R
 import com.leydymacareo.encontrandou.screens.user.NavBarItem
 

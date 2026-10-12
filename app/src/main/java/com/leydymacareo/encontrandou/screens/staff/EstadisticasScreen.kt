@@ -1,4 +1,4 @@
-package com.leydymacareo.encontrandou.screens
+package com.leydymacareo.encontrandou.screens.staff
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background

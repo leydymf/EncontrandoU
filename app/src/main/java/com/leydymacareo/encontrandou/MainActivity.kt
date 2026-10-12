@@ -6,8 +6,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.leydymacareo.encontrandou.navigation.AppNavHost
-import com.leydymacareo.encontrandou.screens.NuevaSolicitudScreen
-import com.leydymacareo.encontrandou.screens.NuevoObjetoScreen
+import com.leydymacareo.encontrandou.screens.user.NuevaSolicitudScreen
+import com.leydymacareo.encontrandou.screens.staff.NuevoObjetoScreen
 
 
 class MainActivity : ComponentActivity() {

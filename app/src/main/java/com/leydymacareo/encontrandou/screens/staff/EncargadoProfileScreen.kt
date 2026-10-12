@@ -11,11 +11,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.leydymacareo.encontrandou.NavRoutes
+import com.leydymacareo.encontrandou.navigation.NavRoutes
 import com.leydymacareo.encontrandou.R
 import com.leydymacareo.encontrandou.components.ProfileContent
-import com.leydymacareo.encontrandou.viewmodel.SessionViewModel
-import com.leydymacareo.encontrandou.viewmodel.SessionState
+import com.leydymacareo.encontrandou.viewmodels.SessionViewModel
+import com.leydymacareo.encontrandou.viewmodels.SessionState
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight

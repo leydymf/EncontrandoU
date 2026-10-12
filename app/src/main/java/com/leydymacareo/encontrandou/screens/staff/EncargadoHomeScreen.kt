@@ -21,14 +21,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.leydymacareo.encontrandou.R
-import com.leydymacareo.encontrandou.viewmodel.SessionViewModel
+import com.leydymacareo.encontrandou.viewmodels.SessionViewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import coil.compose.AsyncImage
-import com.leydymacareo.encontrandou.NavRoutes
+import com.leydymacareo.encontrandou.navigation.NavRoutes
 import com.leydymacareo.encontrandou.components.EstadoBadge
 import com.leydymacareo.encontrandou.viewmodels.SolicitudViewModel
-import com.leydymacareo.encontrandou.viewmodel.SessionState
+import com.leydymacareo.encontrandou.viewmodels.SessionState
 
 
 @Composable

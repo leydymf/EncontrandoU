@@ -1,6 +1,5 @@
 package com.leydymacareo.encontrandou.models
 
-import EstadoObjeto
 
 data class ObjetoEncontrado(
     var key: String = "",

@@ -1,3 +1,5 @@
+package com.leydymacareo.encontrandou.screens.user
+
 import android.net.Uri
 import android.widget.MediaController
 import android.widget.VideoView

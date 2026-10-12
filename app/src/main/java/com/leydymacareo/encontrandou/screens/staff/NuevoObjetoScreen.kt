@@ -1,5 +1,6 @@
-package com.leydymacareo.encontrandou.screens
+package com.leydymacareo.encontrandou.screens.staff
 
+import com.leydymacareo.encontrandou.models.EstadoObjeto
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.text.font.FontWeight
@@ -15,11 +16,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.leydymacareo.encontrandou.NavRoutes
+import com.leydymacareo.encontrandou.navigation.NavRoutes
 import com.leydymacareo.encontrandou.components.obtenerFechaActual
 import com.leydymacareo.encontrandou.models.ObjetoEncontrado
-import com.leydymacareo.encontrandou.viewmodel.SessionState
-import com.leydymacareo.encontrandou.viewmodel.SessionViewModel
+import com.leydymacareo.encontrandou.viewmodels.SessionState
+import com.leydymacareo.encontrandou.viewmodels.SessionViewModel
 import com.leydymacareo.encontrandou.viewmodels.SolicitudViewModel
 import java.util.UUID
 

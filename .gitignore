@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Configuracion local y de Firebase (cada quien usa la suya)
+.idea/
+app/google-services.json

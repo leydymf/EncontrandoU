@@ -1,7 +1,8 @@
 package com.leydymacareo.encontrandou.viewmodels
 
-import EstadoObjeto
-import EstadoSolicitud
+import com.leydymacareo.encontrandou.data.StorageRepository
+import com.leydymacareo.encontrandou.models.EstadoSolicitud
+import com.leydymacareo.encontrandou.models.EstadoObjeto
 import android.content.Context
 import android.net.Uri
 import android.util.Log

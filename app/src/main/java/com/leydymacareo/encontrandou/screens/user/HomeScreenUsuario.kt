@@ -25,10 +25,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.leydymacareo.encontrandou.NavRoutes
+import com.leydymacareo.encontrandou.navigation.NavRoutes
 import com.leydymacareo.encontrandou.R
-import com.leydymacareo.encontrandou.viewmodel.SessionState
-import com.leydymacareo.encontrandou.viewmodel.SessionViewModel
+import com.leydymacareo.encontrandou.viewmodels.SessionState
+import com.leydymacareo.encontrandou.viewmodels.SessionViewModel
 import com.leydymacareo.encontrandou.components.EstadoBadge
 
 

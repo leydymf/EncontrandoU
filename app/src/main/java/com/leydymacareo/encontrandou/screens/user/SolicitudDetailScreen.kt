@@ -1,5 +1,6 @@
 package com.leydymacareo.encontrandou.screens.user
 
+import com.leydymacareo.encontrandou.models.EstadoSolicitud
 import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

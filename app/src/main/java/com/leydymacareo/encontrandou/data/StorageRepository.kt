@@ -1,4 +1,4 @@
-package com.leydymacareo.encontrandou.viewmodels
+package com.leydymacareo.encontrandou.data
 
 import android.content.Context
 import android.net.Uri

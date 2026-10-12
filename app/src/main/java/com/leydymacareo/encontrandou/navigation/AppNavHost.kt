@@ -1,5 +1,6 @@
 package com.leydymacareo.encontrandou.navigation
-import HelpScreen
+
+import com.leydymacareo.encontrandou.screens.user.HelpScreen
 import androidx.compose.runtime.*
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
@@ -7,16 +8,16 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
-import com.leydymacareo.encontrandou.NavRoutes
-import com.leydymacareo.encontrandou.screens.EstadisticasScreen
+import com.leydymacareo.encontrandou.navigation.NavRoutes
+import com.leydymacareo.encontrandou.screens.staff.EstadisticasScreen
 import com.leydymacareo.encontrandou.screens.staff.EncargadoHomeScreen
 import com.leydymacareo.encontrandou.screens.user.HomeScreenUsuario
 import com.leydymacareo.encontrandou.screens.login.*
-import com.leydymacareo.encontrandou.viewmodel.SessionState
-import com.leydymacareo.encontrandou.viewmodel.SessionViewModel
+import com.leydymacareo.encontrandou.viewmodels.SessionState
+import com.leydymacareo.encontrandou.viewmodels.SessionViewModel
 import com.leydymacareo.encontrandou.viewmodels.SolicitudViewModel
-import com.leydymacareo.encontrandou.screens.NuevaSolicitudScreen
-import com.leydymacareo.encontrandou.screens.NuevoObjetoScreen
+import com.leydymacareo.encontrandou.screens.user.NuevaSolicitudScreen
+import com.leydymacareo.encontrandou.screens.staff.NuevoObjetoScreen
 import com.leydymacareo.encontrandou.screens.staff.ConfiguracionEncargadoScreen
 import com.leydymacareo.encontrandou.screens.staff.DetalleObjetoScreen
 import com.leydymacareo.encontrandou.screens.staff.DetalleObjetoSeleccionableScreen

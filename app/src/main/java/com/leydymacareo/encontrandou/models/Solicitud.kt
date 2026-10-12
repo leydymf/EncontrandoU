@@ -1,6 +1,5 @@
 package com.leydymacareo.encontrandou.models
 
-import EstadoSolicitud
 
 data class Solicitud(
     var key: String = "",
